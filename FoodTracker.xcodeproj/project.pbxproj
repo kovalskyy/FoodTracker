@@ -15,6 +15,7 @@
 		233B36191F6FD08A00F3711C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 233B36171F6FD08A00F3711C /* LaunchScreen.storyboard */; };
 		233B36241F6FD08A00F3711C /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233B36231F6FD08A00F3711C /* FoodTrackerTests.swift */; };
 		233B362F1F6FD08A00F3711C /* FoodTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233B362E1F6FD08A00F3711C /* FoodTrackerUITests.swift */; };
+		2376AC3F1F712BD9005B9D35 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2376AC3E1F712BD9005B9D35 /* Meal.swift */; };
 		23BAD88F1F70FF2A004FBF5C /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BAD88E1F70FF2A004FBF5C /* RatingControl.swift */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,7 @@
 		233B362A1F6FD08A00F3711C /* FoodTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		233B362E1F6FD08A00F3711C /* FoodTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerUITests.swift; sourceTree = "<group>"; };
 		233B36301F6FD08A00F3711C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2376AC3E1F712BD9005B9D35 /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		23BAD88E1F70FF2A004FBF5C /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -151,6 +153,7 @@
 		23BAD8921F70FF36004FBF5C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2376AC3E1F712BD9005B9D35 /* Meal.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -300,6 +303,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2376AC3F1F712BD9005B9D35 /* Meal.swift in Sources */,
 				23BAD88F1F70FF2A004FBF5C /* RatingControl.swift in Sources */,
 				233B360E1F6FD08A00F3711C /* ViewController.swift in Sources */,
 				233B360C1F6FD08A00F3711C /* AppDelegate.swift in Sources */,
